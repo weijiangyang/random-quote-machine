@@ -54,7 +54,11 @@ function getQuote() {
   currentQuote = randomQuote.quote;
   currentAuthor = randomQuote.author;
 
-  
+  $('#tweet-quote').attr(
+    'href',
+    'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' +
+      encodeURIComponent('"' + currentQuote + '" ' + currentAuthor)
+  );
 
   
 
