@@ -69,7 +69,7 @@ body {
   .buttons {
     width: 450px;
     margin: auto;
-    display: block;
+    display: block;  }
     .button {
       height: 38px;
       border: none;
@@ -81,12 +81,12 @@ body {
       padding: 8px 18px 6px 18px;
       margin-top: 30px;
       opacity: 1;
-      cursor: pointer;
-      &:hover {
+      cursor: pointer;}
+      .button:hover {
         opacity: 0.9;
       }
-      &#tweet-quote,
-      &#tumblr-quote {
+      #tweet-quote,
+      #tumblr-quote {
         float: left;
         padding: 0px;
         padding-top: 8px;
@@ -96,9 +96,9 @@ body {
         height: 30px;
         width: 40px;
       }
-      &#new-quote {
+      #new-quote {
         float: right;
       }
-    }
-  }
+    
+
 
